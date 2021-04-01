@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">INs Loja</string>
+    <string name="app_name">IST LOJA</string>
     <string name="buttonConectar">Conectar</string>
     <string name="buttonAyuda">Ayuda</string>
     <string name="buttonMaps">Maps</string>
     <string name="buttonConocenos">Conocenos</string>
+    <string name="buttonAtras">Atras</string>
+    <string name="text">Detail</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_main2">MainActivity</string>
     <!-- Strings used for fragments for navigation -->

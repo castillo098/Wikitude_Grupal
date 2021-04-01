@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="Atras"
-        android:text="@string/button2"
+        android:text="@string/buttonAtras"
         tools:layout_editor_absoluteX="57dp"
         tools:layout_editor_absoluteY="117dp" />
 
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:lineSpacingExtra="30sp"
-        android:text="@string/txtView"
+        android:text="@string/text"
         tools:layout_editor_absoluteX="73dp"
         tools:layout_editor_absoluteY="77dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
