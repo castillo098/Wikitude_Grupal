@@ -21,83 +21,73 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="142dp"
-        android:layout_height="111dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="120dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/conexiones" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="219dp"
-        android:layout_height="109dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/interrogacion" />
-
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0D47A1"
         android:onClick="wikitude"
-        android:text="@string/buttonConectar"
+        android:text="Realidad Virtual"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
-        android:onClick="ayuda"
-        android:text="@string/buttonAyuda"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0D47A1"
+        android:onClick="conocenos"
+        android:text="conocenos"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
         app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#0D47A1"
         android:onClick="mapa"
-        android:text="@string/buttonMaps"
+        android:text="Ubicanos"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="124dp"
-        android:layout_marginTop="105dp"
+        android:layout_marginTop="170dp"
         android:layout_marginEnd="65dp"
-        android:onClick="conocenos"
-        android:text="@string/buttonConocenos"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#0D47A1"
+        android:onClick="redes_sociales"
+        android:text="siguenos"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
@@ -110,17 +100,57 @@
         tools:layout_editor_absoluteY="22dp" />
 
     <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="126dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/conexion2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="143dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/conocer" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="139dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="57dp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:srcCompat="@drawable/ubicanos" />
+
+    <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="131dp"
-        android:layout_height="106dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="2dp"
+        android:layout_width="145dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="21dp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:srcCompat="@drawable/ayuda" />
+        app:srcCompat="@drawable/conexion1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

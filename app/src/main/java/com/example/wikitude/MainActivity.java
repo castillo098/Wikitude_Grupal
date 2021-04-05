@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void conocenos(View view) {
-        Intent a = new Intent(this, Conocenos.class);
+    public void redes_sociales(View view) {
+        Intent a = new Intent(this, redes_sociales.class);
         startActivity(a);
     }
 
@@ -35,7 +35,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(a);
 
     }
-
+    public void conocenos(View view) {
+        Intent a = new Intent(this, Conocenos.class);
+        startActivity(a);
+    }
     public void wikitude(View view) {
         String nombre_paquete = "com.wikitude.wikitudestudioandroidapptemplate";
         Intent i = new Intent();
@@ -43,8 +46,5 @@ public class MainActivity extends AppCompatActivity {
         i = manager.getLaunchIntentForPackage(nombre_paquete);
         i.addCategory(Intent.CATEGORY_LAUNCHER);
         startActivity(i);
-
     }
-
-
-    }
+}
